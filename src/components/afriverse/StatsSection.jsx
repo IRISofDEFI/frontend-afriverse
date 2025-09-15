@@ -28,7 +28,7 @@ export default function StatsSection({ stats }) {
                     <stat.icon className="w-8 h-8 text-black" />
                   </div>
                   <h3 className="text-3xl md:text-4xl font-bold mb-2 text-green-400 font-heading">
-                    {stat.value.toLocaleString()}+
+                    {/*{stat.value.toLocaleString()}0+*/}0+
                   </h3>
                   <p className="text-gray-400 font-medium">{stat.label}</p>
                 </CardContent>
